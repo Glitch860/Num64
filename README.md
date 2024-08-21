@@ -1,4 +1,6 @@
 # Num64
+![Num64_Logo](https://github.com/user-attachments/assets/c10de669-2bbc-4003-90f6-a164e7adf4be)
+
 3D printer files and Gerber files
 
 # License
