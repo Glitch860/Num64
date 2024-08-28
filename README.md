@@ -3,7 +3,7 @@
 
 3D printer files and Gerber files
 
-Case was printed on SOVOL SV06+ with a 300mmx300mmx340mm bed size. 
+STL files were printed on SOVOL SV06+ with a 300mmx300mmx340mm bed size. 
 Printer settings:
 - .6mm nozzle
 - layer height:
