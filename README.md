@@ -3,6 +3,16 @@
 
 3D printer files and Gerber files
 
+Case was printed on SOVOL SV06+ with a 300mmx300mmx340mm bed size. 
+Printer settings:
+- .6mm nozzle
+- layer height:
+
+hardware required:
+- M2.5 threaded insets
+- M2.5x? bolts
+- Battery
+
 # License
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
