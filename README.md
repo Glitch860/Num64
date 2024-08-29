@@ -4,7 +4,8 @@
 3D printer files and Gerber files
 
 STL files were printed on SOVOL SV06+ with a 300mmx300mmx340mm bed size. 
-Printer settings:
+
+##Printer settings:
 - .6mm nozzle
 - layer height: .4mm
 - first layer: 2mm
