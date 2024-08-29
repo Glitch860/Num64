@@ -6,7 +6,9 @@
 STL files were printed on SOVOL SV06+ with a 300mmx300mmx340mm bed size. 
 Printer settings:
 - .6mm nozzle
-- layer height:
+- layer height: .4mm
+- first layer: 2mm
+- infill: 20%
 
 hardware required:
 - M2.5 threaded insets
