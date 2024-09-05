@@ -20,7 +20,7 @@ hardware required:
 
 ## Build Steps
 
-1. Print the plate
+1. [Print the plate](https://github.com/Glitch860/Num64/blob/main/NUM64_plate.stl)
 2. Solder diodes to PCB
 3. Solder RGB LED to PCB *config not working at this time*
 4. *optional* Solder JST connector to controller
@@ -33,7 +33,7 @@ hardware required:
 8. Pop switches into the plate *60 in total needed*
 9. Align the plate with switches onto the PCB
 10. Solder all 60 switches to the PCB
-11. Print the back and front pieces
+11. Print the [back](https://github.com/Glitch860/Num64/blob/main/Num64_Back.stl) and [front](https://github.com/Glitch860/Num64/blob/main/Num64_Front.stl) pieces
 12. Place the battery in the back base cutout
 13. connect the battery using the JST connector. OR solder directly to the controller
 14. Using the M3x8 bolts screw the front and back to the plate
