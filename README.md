@@ -17,6 +17,7 @@ hardware required:
 - M3x8 hex bolts
 - [Battery](https://a.co/d/9JyL29i)
 - *Optional* [JST 1.25mm 2 Pin connectors](https://a.co/d/bhRtTt9)
+- *Optional* SMB power switch or [Battery helper](https://www.boardsource.xyz/products/Battery-Helper)
 
 ## Build Steps
 
