@@ -22,22 +22,52 @@ hardware required:
 ## Build Steps
 
 1. [Print the plate](https://github.com/Glitch860/Num64/blob/main/NUM64_plate.stl)
-2. Solder diodes to PCB
-3. Solder RGB LED to PCB *config not working at this time*
-4. *optional* Solder JST connector to controller
-5. Solder controller to PCB
-6. Flash the controller with [firmware](https://github.com/Glitch860/zmk-config-num64)
+2. While the plate is printing. Dend 60 diodes:
+
+![PXL_20240911_173447660](https://github.com/user-attachments/assets/980fea1f-aa7f-4726-8849-31ba3a4a1f1c)
+
+3. Solder diodes to PCB by putting them through the holes on the back side of the PCB. Bend the legs to help hold it in place. Make sure the black line of the diode is matching the silkscreen.
+
+![PXL_20240911_173520431](https://github.com/user-attachments/assets/396bf678-e249-4caa-93b7-3801f9708c5f)
+
+4. Clip the diode legs once they a soldered.
+   >Be sure to save the diode legs for a later step.
+  
+5. Solder RGB LED to PCB *config not working at this time* The cruved pin is ground. Solder LED's as shown
+
+![PXL_20240911_173824425 MP~2](https://github.com/user-attachments/assets/23e622ce-597d-48ed-b715-f72add3d1110)
+   
+6. *optional* Solder JST connector to controller. Red wire solder to + and black wire to - 
+7. Solder hot swap controller sockets to the PDB
+8. Using the diode legs mount the controller in the hotswap sockets. Solder and clip the legs.
+9. Flash the controller with [firmware](https://github.com/Glitch860/zmk-config-num64)
    - Under the master branch select Actions
    - Choose the latest successful workflow
    - Under the workflow artifacts download the firmware file
-7. Using a soldering Iron heat sink the threaded inserts into the plate on the front and back
-8. Pop switches into the plate *60 in total needed*
-9. Align the plate with switches onto the PCB
-10. Solder all 60 switches to the PCB
-11. Print the [back](https://github.com/Glitch860/Num64/blob/main/Num64_Back.stl) and [front](https://github.com/Glitch860/Num64/blob/main/Num64_Front.stl) pieces
-12. Place the battery in the back base cutout
-13. connect the battery using the JST connector. OR solder directly to the controller
-14. Using the M3x8 bolts screw the front and back to the plate
+10. To flash the firmware use a pair of twizzers and touch the Gnd and Rst pins on the controller. You should see a drive call *NICENANO* show up.
+    - Drag and drop the .uf2 file onto the mounted NiceNano drive
+    - After a successful copy the drive will unmount and your keyboard should be working
+    - *recommend* testing the PCB with an online keyboard tester. Using a pair of twizzers touch both holes of each switch.
+11. Pop switches into the plate *60 in total needed*, be sure to firmly push the switch into each hole.
+12. Align the plate with switches onto the PCB. Be sure no not to bend any of the switch legs. You will have to push the PCB and plate together to ensure the switched *CLICK* into place.
+
+![PXL_20240911_200120786](https://github.com/user-attachments/assets/3972fcc5-d4da-48dd-915a-293151151fb9)
+   
+13. Solder all 60 switches to the PCB
+
+![PXL_20240911_200334668](https://github.com/user-attachments/assets/af46c8ae-d17c-41e7-b5e1-54b6190abc4f)
+
+14. Strip a small piece of wire and solder it to D59. Connecting the two switches at the bottom.
+   >This was a step missed in the design process. This should be corrected in newer releases on this Repo.
+
+![PXL_20240911_193548092](https://github.com/user-attachments/assets/c8f28440-cd71-4596-b944-d5c0aa268091)
+
+15. Print the [back](https://github.com/Glitch860/Num64/blob/main/Num64_Back.stl) and [front](https://github.com/Glitch860/Num64/blob/main/Num64_Front.stl) pieces
+16. Place the battery in the cutout on the back piece.
+17. connect the battery using the JST connector. OR solder directly to the controller
+18. Using the M3x8 bolts screw the front and back to the plate
+19. Put some little rubber feet on the bottom of the front and back pieces.
+20. Enjoy your new keyboard.
 
 # License
 
