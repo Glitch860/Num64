@@ -49,7 +49,7 @@ hardware required:
     - After a successful copy the drive will unmount and your keyboard should be working
     - *recommend* testing the PCB with an online keyboard tester. Using a pair of twizzers touch both holes of each switch.
 11. Pop switches into the plate *60 in total needed*, be sure to firmly push the switch into each hole.
-12. Align the plate with switches onto the PCB. Be sure no not to bend any of the switch legs. You will have to push the PCB and plate together to ensure the switched *CLICK* into place.
+12. Align the plate with switches onto the PCB. Be sure no not to bend any of the switch legs. You will have to push the PCB and plate together to ensure the switch *CLICK* into place.
 
 ![PXL_20240911_200120786](https://github.com/user-attachments/assets/3972fcc5-d4da-48dd-915a-293151151fb9)
    
