@@ -11,6 +11,12 @@ STL files were printed on SOVOL SV06+ with a 300mmx300mmx340mm bed size.
 - first layer: .3mm
 - infill: 20%
 
+### V2 Printer Settings:
+- .4mm Nozzle
+- 3 Walls
+- .2mm Layer height
+- infill: 30%
+
 hardware required:
 - Nice!nano v2 controller or clone alernative
 - M3x3x5 heat sink threaded insets
@@ -18,10 +24,21 @@ hardware required:
 - [Battery](https://a.co/d/9JyL29i)
 - *Optional* [JST 1.25mm 2 Pin connectors](https://a.co/d/bhRtTt9)
 - *Optional* SMB power switch or [Battery helper](https://www.boardsource.xyz/products/Battery-Helper)
+- 8x rubber feet
+
+### V2 Case hardware required:
+- 4x M2*20 screws
+- 4x M2*12 screws
+- 8X M2x4x3.2 Heat set inserts *possible to use M2 nuts instead*
+- 6x Rubberfeet
+- [Battery](https://a.co/d/9JyL29i)
+- *Optional* [JST 1.25mm 2 Pin connectors](https://a.co/d/bhRtTt9)
+- *Optional* SMB power switch or [Battery helper](https://www.boardsource.xyz/products/Battery-Helper)
+- Nice!nano v2 controller or clone alernative
 
 ## Build Steps
 
-1. [Print the plate](https://github.com/Glitch860/Num64/blob/main/NUM64_plate.stl)
+1. Print the plate. *Recommended* use V2 Top Plate and V2 Base
 2. While the plate is printing. Dend 60 diodes:
 
 ![PXL_20240911_173447660](https://github.com/user-attachments/assets/980fea1f-aa7f-4726-8849-31ba3a4a1f1c)
