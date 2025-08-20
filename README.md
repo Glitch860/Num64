@@ -49,45 +49,40 @@ hardware required:
 
 4. Clip the diode legs once they a soldered.
    >Be sure to save the diode legs for a later step.
-  
-5. Solder RGB LED to PCB, the cruved pin is ground. Solder LED's as shown
-:warning: *config not working for version 1 of the PCB.*
-
-![PXL_20240911_173824425 MP~2](https://github.com/user-attachments/assets/23e622ce-597d-48ed-b715-f72add3d1110)
    
-6. *optional* Solder JST connector to controller. Red wire solder to + and black wire to -
+5. *optional* Solder JST connector to controller. Red wire solder to + and black wire to -
       - *optional* Solder on a [Battery Helper](https://boardsource.xyz/products/battery-helper?_pos=1&_sid=83d434f6d&_ss=r) switch 
-8. Solder hot swap controller sockets to the PDB, *recommended for height to clear the case*
-9. Using the diode legs mount the controller in the hotswap sockets. Solder and clip the legs.
-10. Flash the controller with [firmware](https://github.com/Glitch860/zmk-config-num64)
+6. Solder hot swap controller sockets to the PDB, *recommended for height to clear the case*
+7. Using the diode legs mount the controller in the hotswap sockets. Solder and clip the legs.
+8. Flash the controller with [firmware](https://github.com/Glitch860/zmk-config-num64)
    - Under the master branch select Actions
    - Choose the latest successful workflow
    - Under the workflow artifacts download the firmware file
-11. To flash the firmware use a pair of twizzers and touch the Gnd and Rst pins on the controller. You should see a drive call *NICENANO* show up.
+9. To flash the firmware use a pair of twizzers and touch the Gnd and Rst pins on the controller. You should see a drive call *NICENANO* show up.
     - Drag and drop the .uf2 file onto the mounted NiceNano drive
     - After a successful copy the drive will unmount and your keyboard should be working
     - *recommend* testing the PCB with an online keyboard tester. Using a pair of twizzers touch both holes of each switch.
-12. Pop switches into the plate *60 in total needed*, be sure to firmly push the switch into each hole.
-13. Align the plate with switches onto the PCB. Be sure no not to bend any of the switch legs. You will have to push the PCB and plate together to ensure the switch *CLICK* into place.
+10. Pop switches into the plate *60 in total needed*, be sure to firmly push the switch into each hole.
+11. Align the plate with switches onto the PCB. Be sure no not to bend any of the switch legs. You will have to push the PCB and plate together to ensure the switch *CLICK* into place.
 
 ![PXL_20240911_200120786](https://github.com/user-attachments/assets/3972fcc5-d4da-48dd-915a-293151151fb9)
    
-13. Solder all 60 switches to the PCB
+12. Solder all 60 switches to the PCB
   - :memo: Version 1 of the PCB **ONLY** supports 3 pin switches.
 
 ![PXL_20240911_200334668](https://github.com/user-attachments/assets/af46c8ae-d17c-41e7-b5e1-54b6190abc4f)
 
-14. Strip a small piece of wire and solder it to D59. Connecting the two switches at the bottom.
+13. Strip a small piece of wire and solder it to D59. Connecting the two switches at the bottom.
    >⚠️This wire was missed in the design process for version 1. This should be corrected in newer releases on this Repo.
 
 ![PXL_20240911_193548092](https://github.com/user-attachments/assets/c8f28440-cd71-4596-b944-d5c0aa268091)
 
-15. Print the case. View the STLs to determine which version you like best. 
-16. Place the battery in the cutout.
-17. connect the battery using the JST connector. OR solder directly to the controller
-18. Using the M3x8 bolts screw the front and back to the plate
-19. Put some little rubber feet on the bottom of the case.
-20. Enjoy your new keyboard.
+14. Print the case. View the STLs to determine which version you like best. 
+15. Place the battery in the cutout.
+16. connect the battery using the JST connector. OR solder directly to the controller
+17. Using the M3x8 bolts screw the front and back to the plate
+18. Put some little rubber feet on the bottom of the case.
+19. Enjoy your new keyboard.
 
 # License
 
