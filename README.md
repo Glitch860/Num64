@@ -1,5 +1,6 @@
 # Num64
-![Num64_Logo](https://github.com/user-attachments/assets/c10de669-2bbc-4003-90f6-a164e7adf4be)
+<img width="1500" height="1000" alt="Num64" src="https://github.com/user-attachments/assets/d7808363-4060-4171-9bd7-a722b59be598" />
+
 
 3D printer files and Gerber files
 
